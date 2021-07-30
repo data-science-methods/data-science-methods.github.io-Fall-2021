@@ -14,13 +14,26 @@ TTh 12:00-1:15pm
 
 ```{r setup, include = FALSE}
 library(tidyverse)
-overview_df = read_csv('../resources/Data Science Methods - Sheet1.csv')
+library(googlesheets4)
+library(lubridate)
+library(pander)
+# overview_df = read_csv('../resources/Data Science Methods - Sheet1.csv')
+overview_df = read_sheet('https://docs.google.com/spreadsheets/d/1TwZkI452mmXm7oqL3SlNc5AQvKW8by5rLM8opP7V34Q/edit#gid=1257700791')
+
+```
+
+```{css, echo = FALSE}
+table {
+    font-size: 80%;
+    width: 120%;
+}
 ```
 
 ```{r overview, echo = FALSE}
 overview_df %>% 
     select(-todos) %>% 
-    pander::pander(justify = c('rlll'),
+    mutate(date = stamp('Mar 1', quiet = TRUE)(date)) %>% 
+    pander(justify = c('rlll'),
                    missing = '',
                    split.tables = Inf, 
                    style = 'grid')
