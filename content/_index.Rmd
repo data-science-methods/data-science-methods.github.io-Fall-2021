@@ -1,0 +1,40 @@
+---
+date: "2017-06-26T18:27:58+01:00"
+title: "Methods of Data Science I"
+---
+
+Fall 2021  
+UC Merced  
+Prof. Dan Hicks  
+
+SSM 135  
+TTh 12:00-1:15pm
+
+# Overview #
+
+```{r setup, include = FALSE}
+library(tidyverse)
+overview_df = read_csv('../resources/Data Science Methods - Sheet1.csv')
+```
+
+```{r overview, echo = FALSE}
+overview_df %>% 
+    select(-todos) %>% 
+    pander::pander(justify = c('rlll'),
+                   missing = '',
+                   split.tables = Inf, 
+                   style = 'grid')
+```
+
+
+<!--
+Welcome to **Cupper**: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project. Here are some of its features:
+
+{{< ticks >}}
+* Screen reader and keyboard accessible
+* Responsive
+* Numerous shortcodes
+* Toggleable dark theme
+* Toggleable table of contents per blog post
+{{< /ticks >}}
+-->

@@ -1,0 +1,23 @@
+week,date,topic,readings,todos
+1,26 Aug,Motivation: What researchers can learn from software engineering,"- McElreath, Richard. 2020. Science as Amateur Software Development. https://www.youtube.com/watch?v=zwRdO9_GGhY.
+- Wilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and Tracy K. Teal. 2017. “Good Enough Practices in Scientific Computing.” PLOS Computational Biology 13 (6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510.
+  ",- finish discussion prompts
+2,31 Aug,"Basic tools: git, R Markdown, tests",,"- readings? 
+- lab
+- R Markdown code-along
+- tests code-along"
+3,7 Sep,Basic techniques: Errors and reprex,,
+4,14 Sep,Programming paradigms,,
+5,21 Sep,Data journeys (Covid contrarianism I),,
+6,28 Sep,EDA,,
+7,5 Oct,EDA,,
+8,12 Oct,EDA,,
+9,19 Oct,Covid contrarianism II,,
+10,26 Oct,Reproducibility and code review,,
+11,2 Nov,Project management and data cleaning,,
+12,9 Nov,Instructor at conference,,
+13,16 Nov,Covid contrarianism III,,
+14,23 Nov,Thanksgiving break,,
+15,30 Nov,Reproducibility tools: make,,
+16,7 Nov,Reproducibility tools: Github Actions,,
+,14 Nov,Final projects due,,
