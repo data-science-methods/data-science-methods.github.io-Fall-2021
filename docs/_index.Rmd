@@ -18,25 +18,38 @@ library(googlesheets4)
 library(lubridate)
 library(pander)
 # overview_df = read_csv('../resources/Data Science Methods - Sheet1.csv')
-overview_df = read_sheet('https://docs.google.com/spreadsheets/d/1TwZkI452mmXm7oqL3SlNc5AQvKW8by5rLM8opP7V34Q/edit#gid=1257700791')
+overview_gs = 'https://docs.google.com/spreadsheets/d/1TwZkI452mmXm7oqL3SlNc5AQvKW8by5rLM8opP7V34Q/edit#gid=1257700791'
 
+overview_df = read_sheet(overview_gs) %>% 
+    mutate(lab = if_else(!is.na(lab_title), 
+                         glue::glue('[{lab_title}]({lab_link})', .na = ''), 
+                         ''))
 ```
 
 ```{css, echo = FALSE}
 table {
     font-size: 80%;
-    width: 120%;
+    width: 250%;
+    margin-left: 0rem;
+}
+.main-and-footer {
+    overflow-x: scroll;
 }
 ```
 
-```{r overview, echo = FALSE}
-overview_df %>% 
-    select(-todos) %>% 
-    mutate(date = stamp('Mar 1', quiet = TRUE)(date)) %>% 
-    pander(justify = c('rlll'),
-                   missing = '',
-                   split.tables = Inf, 
-                   style = 'grid')
+```{r overview, echo = FALSE, results = 'asis'}
+table = overview_df %>% 
+    # slice(1:3) %>% 
+    select(week, date, topic, readings, lab) %>% 
+    mutate(date = stamp('Mar 1', quiet = TRUE)(date), 
+           date = str_pad(date, 30, side = 'left')) %>% 
+    pandoc.table.return(justify = c('rllll'),
+                        missing = '',
+                        split.tables = Inf, 
+                        keep.line.breaks = FALSE,
+                        style = 'grid')
+# write_lines(table, '../table.md')
+cat(table)
 ```
 
 
