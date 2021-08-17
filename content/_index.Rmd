@@ -18,8 +18,12 @@ library(googlesheets4)
 library(lubridate)
 library(pander)
 # overview_df = read_csv('../resources/Data Science Methods - Sheet1.csv')
-overview_df = read_sheet('https://docs.google.com/spreadsheets/d/1TwZkI452mmXm7oqL3SlNc5AQvKW8by5rLM8opP7V34Q/edit#gid=1257700791')
+overview_gs = 'https://docs.google.com/spreadsheets/d/1TwZkI452mmXm7oqL3SlNc5AQvKW8by5rLM8opP7V34Q/edit#gid=1257700791'
 
+overview_df = read_sheet(overview_gs) %>% 
+        mutate(lab = if_else(!is.na(lab_title), 
+                         glue::glue('[{lab_title}]({lab_link})', .na = ''), 
+                         ''))
 ```
 
 ```{css, echo = FALSE}
@@ -30,13 +34,15 @@ table {
 ```
 
 ```{r overview, echo = FALSE}
-overview_df %>% 
-    select(-todos) %>% 
+table = overview_df %>% 
+    select(week, date, topic, readings, lab) %>% 
     mutate(date = stamp('Mar 1', quiet = TRUE)(date)) %>% 
-    pander(justify = c('rlll'),
+    pander(justify = c('rllll'),
                    missing = '',
                    split.tables = Inf, 
                    style = 'grid')
+table
+write_lines(table, '../table.md')
 ```
 
 
