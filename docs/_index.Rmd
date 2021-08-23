@@ -1,14 +1,18 @@
 ---
 date: "2017-06-26T18:27:58+01:00"
 title: "Methods of Data Science I"
+output:
+    blogdown::html_page:
+        toc: true
 ---
 
 Fall 2021  
 UC Merced  
 Prof. Dan Hicks  
+[Sign up for office hours](https://doodle.com/mm/danhicks/office-hours)
 
 SSM 135  
-TTh 12:00-1:15pm
+TÞ 12:00-1:15pm
 
 # Overview #
 
@@ -52,6 +56,10 @@ table = overview_df %>%
 cat(table)
 ```
 
+# Assignments #
+
+- Labs, approximately weekly, see table above
+- Multi-part project, details TBA
 
 <!--
 Welcome to **Cupper**: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project. Here are some of its features:
