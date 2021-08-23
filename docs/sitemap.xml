@@ -2,112 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://data-science-methods.github.io/2020-12-01-r-rmarkdown/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
+    <loc>https://data-science-methods.github.io/2021-08-23_first-day/</loc>
+    <lastmod>2021-08-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://data-science-methods.github.io/tags/plot/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/r-markdown/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/regression/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
+    <loc>https://data-science-methods.github.io/tags/meetings/</loc>
+    <lastmod>2021-08-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://data-science-methods.github.io/tags/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/cmd-test/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/issue/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/multiple-expandable-test/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/special-character-test/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/hugo/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/katex/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/katex-math-typesetting/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/math/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/typesetting/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/cupper-typography/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/markdown/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/cupper-shortcodes/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/shortcodes/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/nasa/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/nasa-images/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/quotes/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/quotes-by-carl-jung/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
+    <lastmod>2021-08-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://data-science-methods.github.io/</loc>
     <lastmod>2021-08-17T12:41:28-07:00</lastmod>
   </url><url>
-    <loc>https://data-science-methods.github.io/tags/command-line/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/creating-a-new-theme/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/theme/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
     <loc>https://data-science-methods.github.io/about/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/goisforlovers/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/fun/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/hugoisforlovers/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/git/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/go/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/templates/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/jekyll/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/migrate-from-jekyll/</loc>
-    <lastmod>2021-07-30T11:09:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/migration/</loc>
     <lastmod>2021-07-30T11:09:29-07:00</lastmod>
   </url><url>
     <loc>https://data-science-methods.github.io/post/</loc>
