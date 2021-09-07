@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://data-science-methods.github.io/2021-09-07-labs/</loc>
+    <lastmod>2021-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://data-science-methods.github.io/tags/logistics/</loc>
+    <lastmod>2021-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://data-science-methods.github.io/tags/</loc>
+    <lastmod>2021-09-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://data-science-methods.github.io/2021-08-23_first-day/</loc>
     <lastmod>2021-08-23T10:02:29-07:00</lastmod>
   </url><url>
     <loc>https://data-science-methods.github.io/tags/meetings/</loc>
-    <lastmod>2021-08-23T10:02:29-07:00</lastmod>
-  </url><url>
-    <loc>https://data-science-methods.github.io/tags/</loc>
     <lastmod>2021-08-23T10:02:29-07:00</lastmod>
   </url><url>
     <loc>https://data-science-methods.github.io/</loc>

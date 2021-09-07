@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.86.1" />
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/2021-09-07-labs/">
 
   
     
-      <meta name="description" content="Website for Methods of Data Science I, Fall 2021, Prof. Dan Hicks">
-    
+    <meta name="description" content="I’ve had a few questions about when the labs are due, and realized I forgot to make this explicit. Sorry about that!
+There are no particular due dates for the labs. They have different lengths and levels of difficulty, and some of you will be working in pairs (hopefully everyone!) while others are working individually. And the amount of time you have to work on the lab might change from week to week.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://data-science-methods.github.io/apple-touch-icon.png">
@@ -43,9 +43,7 @@
 
   
   
-    
-  
-  <title>Methods of Data Science I</title>
+  <title>Lab due dates | Methods of Data Science I</title>
 </head>
 
   <body>
@@ -264,365 +262,61 @@
         <div>
           
   <main id="main">
-    <h1>Methods of Data Science I</h1>
+    <h1>
+      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+        <use xlink:href="#bookmark"></use>
+      </svg>
+      Lab due dates
+    </h1>
+
+    <div class="date">
+      
+      
+      <strong>Publish date: </strong>Sep 7, 2021
+      
+        
+      
+    </div>
+
     
-<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+      <div class="tags">
+        <strong>Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="/tags/logistics/">logistics</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+    
+    
+      
 
-<div id="TOC">
+
+    
+
+    <p>I&rsquo;ve had a few questions about when the labs are due, and realized I forgot to make this explicit.  Sorry about that!</p>
+<p>There are no particular due dates for the labs.  They have different lengths and levels of difficulty, and some of you will be working in pairs (hopefully everyone!) while others are working individually.  And the amount of time you have to work on the lab might change from week to week.</p>
+<p>Instead of fixed due dates, the lab workflow I have in mind goes like this:</p>
 <ul>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#assignments">Assignments</a></li>
+<li>you (and your partner) work through the lab until your code passes all of the tests and you&rsquo;re satisfied with your written answers</li>
+<li>you submit a PR</li>
+<li>I review your code and give you feedback</li>
+<li>you revise and update the PR</li>
+<li>once we&rsquo;re all satisfied I&rsquo;ll close the PR</li>
 </ul>
-</div>
-
-<p>Fall 2021<br />
-UC Merced<br />
-Prof. Dan Hicks (they/them)
-<a href="https://doodle.com/mm/danhicks/office-hours">Sign up for office hours</a></p>
-<p>SSM 135<br />
-TÞ 12:00-1:15pm</p>
-<div id="overview" class="section level1">
-<h1>Overview</h1>
-<style type="text/css">
-table {
-    font-size: 80%;
-    width: 250%;
-    margin-left: 0rem;
-}
-.main-and-footer {
-    overflow-x: scroll;
-}
-</style>
-<table>
-<colgroup>
-<col width="2%" />
-<col width="3%" />
-<col width="13%" />
-<col width="50%" />
-<col width="29%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>week</th>
-<th>date</th>
-<th>topic</th>
-<th>readings</th>
-<th>lab</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Aug 26</td>
-<td>Motivation: What researchers
-can learn from software
-engineering</td>
-<td><ul>
-<li>McElreath, Richard. 2020.
-Science as Amateur Software
-Development.
-<a href="https://www.youtube.com/watch?v=zwRdO9_GGhY" class="uri">https://www.youtube.com/watch?v=zwRdO9_GGhY</a>.</li>
-<li>Wilson, Greg, Jennifer
-Bryan, Karen Cranston, Justin
-Kitzes, Lex Nederbragt, and
-Tracy K. Teal. 2017. “Good
-Enough Practices in Scientific
-Computing.” PLOS
-Computational Biology 13 (6):
-e1005510.
-<a href="https://doi.org/10.1371/journal.pcbi.1005510" class="uri">https://doi.org/10.1371/journal.pcbi.1005510</a>.</li>
-</ul></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Aug 31</td>
-<td>Basic tools: git, tests, and R
-Markdown</td>
-<td><ul>
-<li>Ram, Karthik. 2013. “Git
-Can Facilitate Greater
-Reproducibility and Increased
-Transparency in Science.”
-Source Code for Biology and
-Medicine 8 (1): 7.
-<a href="https://doi.org/10.1186/1751-0473-8-7" class="uri">https://doi.org/10.1186/1751-0473-8-7</a>.</li>
-<li><strong>Optional</strong>: Blischak,
-John D., Emily R. Davenport,
-and Greg Wilson. 2016. “A
-Quick Introduction to Version
-Control with Git and
-GitHub.” PLOS Computational
-Biology 12 (1): e1004668.
-<a href="https://doi.org/10.1371/journal.pcbi.1004668" class="uri">https://doi.org/10.1371/journal.pcbi.1004668</a>.</li>
-<li><strong>Optional</strong>: Baumer, Ben,
-Mine Cetinkaya-Rundel, Andrew
-Bray, Linda Loi, and Nicholas
-J. Horton. 2014. “R
-Markdown: Integrating A
-Reproducible Analysis Tool
-into Introductory
-Statistics.” ArXiv:1402.1894
-[Stat], February.
-<a href="http://arxiv.org/abs/1402.1894" class="uri">http://arxiv.org/abs/1402.1894</a>.</li>
-</ul></td>
-<td><a href="https://github.com/data-science-methods/lab-w02-git">Week 2:
-Git</a></td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>Sep 07</td>
-<td>Basic techniques: Debugging
-errors and getting help</td>
-<td><ul>
-<li>“R Faq - How to Make a
-Great R Reproducible
-Example.” n.d. Stack
-Overflow. Accessed August 31,
-2018.
-<a href="https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example" class="uri">https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example</a>.</li>
-<li>Bryan, Jenny. 2020.
-“Object of Type
-‘Closure’ Is Not
-Subsettable.” Presented at
-the RSTUDIO::CONF 2020,
-January 31.
-<a href="https://rstudio.com/resources/rstudioconf-2020/object-of-type-closure-is-not-subsettable/" class="uri">https://rstudio.com/resources/rstudioconf-2020/object-of-type-closure-is-not-subsettable/</a>.</li>
-<li>Wickham, Hadley. 2019.
-“Debugging.” In Advanced
-R, Second Edition, chap. 22.
-CRC Press.
-<a href="https://adv-r.hadley.nz/debugging.html" class="uri">https://adv-r.hadley.nz/debugging.html</a>.</li>
-</ul></td>
-<td><a href="https://github.com/data-science-methods/lab-w03-debugging">Week 3:
-Debugging</a></td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Sep 14</td>
-<td>Programming paradigms</td>
-<td><ul>
-<li>Introduction to the
-“Functional Programming”
-section of Advanced R:
-<a href="https://adv-r.hadley.nz/fp.html" class="uri">https://adv-r.hadley.nz/fp.html</a></li>
-<li>Introduction to the
-“Object-oriented Programming”
-section of Advanced R:
-<a href="https://adv-r.hadley.nz/oo.html" class="uri">https://adv-r.hadley.nz/oo.html</a></li>
-<li>Chambers, John M. 2014.
-“Object-Oriented
-Programming, Functional
-Programming and R.”
-Statistical Science 29 (2):
-167–80.
-<a href="https://doi.org/10.1214/13-STS452" class="uri">https://doi.org/10.1214/13-STS452</a>.
-(<a href="https://drive.google.com/file/d/1fhgHVx1vnhCBay9pPnNNTBuIZORNRGwL/view?usp=sharing">Non-paywalled
-copy</a>)</li>
-</ul></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>Sep 21</td>
-<td>Data journeys (Covid
-contrarianism I)</td>
-<td><ul>
-<li>Leonelli, Sabina. 2020.
-“Learning from Data
-Journeys.” In Data Journeys
-in the Sciences, edited by
-Sabina Leonelli and Niccolò
-Tempini. Cham, Switzerland:
-Springer Nature.
-<a href="https://link.springer.com/chapter/10.1007/978-3-030-37177-7_1" class="uri">https://link.springer.com/chapter/10.1007/978-3-030-37177-7_1</a>.</li>
-<li>Madrigal, Robinson Meyer,
-Alexis C. 2021. “Why the
-Pandemic Experts Failed.”
-The Atlantic. March 15, 2021.
-<a href="https://www.theatlantic.com/science/archive/2021/03/americas-coronavirus-catastrophe-began-with-data/618287/" class="uri">https://www.theatlantic.com/science/archive/2021/03/americas-coronavirus-catastrophe-began-with-data/618287/</a>.</li>
-<li>Banco, Erin. 2021. “Inside
-America’s Covid-Reporting
-Breakdown.” POLITICO. August
-15, 2021.
-<a href="https://www.politico.com/news/2021/08/15/inside-americas-covid-data-gap-502565" class="uri">https://www.politico.com/news/2021/08/15/inside-americas-covid-data-gap-502565</a>.</li>
-</ul></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>Sep 28</td>
-<td>EDA</td>
-<td><ul>
-<li><strong>chs. 2 and 4</strong> of Peng,
-Roger D., and Elizabeth
-Matsui. 2016. The Art of Data
-Science: A Guide for Anyone
-Who Works with Data. Leanpub.
-<a href="https://drive.google.com/file/d/1yt87ewuXHglHWGILj38skp0eccnvMlbF/view">link</a></li>
-<li>Bogen, James, and James
-Woodward. 1988. “Saving the
-Phenomena.” The
-Philosophical Review 97 (3):
-303–52. <em>[post link]</em> <em>[fix
-formatting]</em> - Huebner,
-Marianne, Werner Vach, and
-Saskia le Cessie. 2016. “A
-Systematic Approach to Initial
-Data Analysis Is Good Research
-Practice.” The Journal of
-Thoracic and Cardiovascular
-Surgery 151 (1): 25–27.
-<a href="https://doi.org/10.1016/j.jtcvs.2015.09.085" class="uri">https://doi.org/10.1016/j.jtcvs.2015.09.085</a>.</li>
-</ul></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Oct 05</td>
-<td>EDA</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>Oct 12</td>
-<td>EDA</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>Oct 19</td>
-<td>Covid contrarianism II</td>
-<td><ul>
-<li>Lee, Crystal, Tanya Yang,
-Gabrielle Inchoco, Graham M.
-Jones, and Arvind
-Satyanarayan. 2021. “Viral
-Visualizations: How
-Coronavirus Skeptics Use
-Orthodox Data Practices to
-Promote Unorthodox Science
-Online.” Proceedings of the
-2021 CHI Conference on Human
-Factors in Computing Systems,
-May, 1–18.
-<a href="https://doi.org/10.1145/3411764.3445211" class="uri">https://doi.org/10.1145/3411764.3445211</a>.</li>
-<li>Douglass, Rex W. 2020.
-“How to Be Curious Instead
-of Contrarian About COVID-19:
-Eight Data Science Lessons
-From ‘Coronavirus
-Perspective’ (Epstein
-2020).” March 30, 2020.
-<a href="https://rexdouglass.github.io/TIGR/Douglass_2020_How_To_Be_Curious_Instead_of_Contrarian_About_Covid19.nb.html">Link</a>.</li>
-</ul></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>Oct 26</td>
-<td>Reproducibility and code
-review</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>Nov 02</td>
-<td>Project management and data
-cleaning</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>Nov 09</td>
-<td><em>Instructor at conference</em></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>Nov 16</td>
-<td>Covid contrarianism III</td>
-<td><ul>
-<li>Leonelli, Sabina. 2021.
-“Data Science in Times of
-Pan(Dem)Ic.” Harvard Data
-Science Review, January.
-<a href="https://doi.org/10.1162/99608f92.fbb1bdd6" class="uri">https://doi.org/10.1162/99608f92.fbb1bdd6</a>.</li>
-<li>Jordan, Catherine, Susan
-Gust, and Naomi Scheman. 2011.
-“The Trustworthiness of
-Research: The Paradigm of
-Community-Based Research.”
-In Shifting Ground: Knowledge
-and Reality, Transgression and
-Trustworthiness, by Naomi
-Scheman, 170–90. Oxford
-University Press.
-<a href="https://drive.google.com/open?id=1W5Xq7ikkOXgvhznQ-Zl3g8bMBM5G8y6X">Link</a></li>
-</ul></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>14</td>
-<td>Nov 23</td>
-<td><em>Thanksgiving break</em></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>15</td>
-<td>Nov 30</td>
-<td>Reproducibility tools: make</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>16</td>
-<td>Nov 07</td>
-<td>Reproducibility tools: GitHub
-Actions</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>Nov 14</td>
-<td><em>Final projects due</em></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="assignments" class="section level1">
-<h1>Assignments</h1>
-<ul>
-<li>Labs, approximately weekly, see table above</li>
-<li>Multi-part project, details TBA</li>
-</ul>
-<!--
-Welcome to **Cupper**: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project. Here are some of its features:
-
-<div class="ticks">
-  <ul>
-<li>Screen reader and keyboard accessible</li>
-<li>Responsive</li>
-<li>Numerous shortcodes</li>
-<li>Toggleable dark theme</li>
-<li>Toggleable table of contents per blog post</li>
-</ul>
-
-</div>
-
--->
-</div>
 
   </main>
+  <div id="disqus-container">
+  
+</div>
+
 
           
             <footer role="contentinfo">
