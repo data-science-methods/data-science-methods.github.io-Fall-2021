@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 26 Jun 2017 18:27:58 +0100</lastBuildDate><atom:link href="https://data-science-methods.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Final project</title>
+      <link>https://data-science-methods.github.io/project/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://data-science-methods.github.io/project/</guid>
+      <description>In this project, you&amp;rsquo;ll be applying the data science skills that you&amp;rsquo;ve learned to prepare a short, reproducible, exploratory analysis of a dataset.
+Data The ideal dataset for this project is a relatively large, complex dataset from your field. This might be data for a project that you&amp;rsquo;ve worked on, some open data published along with a paper in your field, or a widely-used dataset such as the General Social Survey.</description>
+    </item>
+    
+    <item>
       <title>Reminders for next week</title>
       <link>https://data-science-methods.github.io/2021-09-17-reminder/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>

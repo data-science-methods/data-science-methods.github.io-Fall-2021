@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://data-science-methods.github.io/project/</loc>
+    <lastmod>2021-09-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://data-science-methods.github.io/tags/location/</loc>
     <lastmod>2021-09-20T09:17:17-07:00</lastmod>
   </url><url>
@@ -24,7 +27,7 @@
     <lastmod>2021-08-23T10:02:29-07:00</lastmod>
   </url><url>
     <loc>https://data-science-methods.github.io/</loc>
-    <lastmod>2021-09-20T14:25:25-07:00</lastmod>
+    <lastmod>2021-09-20T14:48:14-07:00</lastmod>
   </url><url>
     <loc>https://data-science-methods.github.io/about/</loc>
     <lastmod>2021-07-30T11:09:29-07:00</lastmod>
