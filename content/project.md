@@ -32,20 +32,22 @@ The report for your analysis is structured somewhat like a traditional scientifi
 The total length of this report should be 3,000-5,000 words (not including references). 
 
 Introduction
-: As usual, motivate your topic, give some background, and clearly state the research question.  In addition, incorporate answers to the reflexivity questions from the labs:  what did you already know about this topic before starting to work on the project, what did you expect to find, who's impacted by this topic and how are you connected to them.  
+: As usual, motivate your topic, give some background, and clearly state the research question.  
+    In addition, incorporate answers to the reflexivity questions from the labs:  what did you already know about this topic before starting to work on the project, what did you expect to find, who's impacted by this topic and how are you connected to them.  
 
 Methods
 : The methods section should focus on the data, and in particular should include a fairly detailed (~1,000-word) narrative of the journey that the data travelled to get to you.  *[more]*  
-
-Beyond the methods covered in this course — which, after all, are focused much more on preparing and maintaining your data than on analysis — you're welcome to use any analytical techniques with which you're comfortable.  
+	Beyond the methods covered in this course — which, after all, are focused much more on preparing and maintaining your data than on analysis — you're welcome to use any analytical techniques with which you're comfortable.  
 
 Findings
-: As usual, your findings should be framed as phenomena (in Bogen and Woodward's sense) rather than causal claims, mechanisms, or theoretical results.  The first subsection of your findings should cover the most relevant elements from the EDA checklists to validate your data.  Be sure to identify and address limitations of your data for answering your research question.  (If you find that the data are not fit for purpose, it's okay to turn in a report that reaches that conclusion.  The discussion section can talk about how researchers in your field might collect data that could actually be fit for purpose.)  The second subsection can address your research questions.  Use visualizations along with or instead of tables.  Keep your visualizations close to the data.  For example, include both a scatterplot and a fitted regression curve.  
+: As usual, your findings should be framed as phenomena (in the sense of the Brown chapter) rather than causal claims, mechanisms, or theoretical results.  
+    The first subsection of your findings should cover the most relevant elements from the EDA checklists to validate your data.  Be sure to identify and address limitations of your data for answering your research question.  (If you find that the data are not fit for purpose, it's okay to turn in a report that reaches that conclusion.  The discussion section can talk about how researchers in your field might collect data that could actually be fit for purpose.)  
+    The second subsection can address your research questions.  Use visualizations along with or instead of tables.  Keep your visualizations close to the data.  For example, include both a scatterplot and a fitted regression curve.  
 
 Discussion
-: As usual, briefly (1-2 sentences) recap your major findings, then discuss limitations and directions for future research.  Resist the temptation to treat your findings as conclusive or as vindicating (or challenging) some larger theory.  Instead, emphasize the ways future research can improve our understanding of the phenomena:  how new data might be collected to mitigate the limitations of this dataset, how different kinds of data might complement the kind of data used here, and how further studies might trace out the scope of the phenomena found in this dataset.  
-
-	Finally, come back to the reflexivity questions in the introduction.  Were your expectations met?  (Probably a mix of both yes and no; explain.)  What implications might your findings have for people affected by the topic?  How should these implications shape the trajectory of future research on this topic?  
+: As usual, briefly (1-2 sentences) recap your major findings, then discuss limitations and directions for future research.  
+    Resist the temptation to treat your findings as conclusive or as vindicating (or challenging) some larger theory.  Instead, emphasize the ways future research can improve our understanding of the phenomena:  how new data might be collected to mitigate the limitations of this dataset, how different kinds of data might complement the kind of data used here, and how further studies might trace out the scope of the phenomena found in this dataset.  
+    Finally, come back to the reflexivity questions in the introduction.  Were your expectations met?  (Probably a mix of both yes and no; explain.)  What implications might your findings have for people affected by the topic?  How should these implications shape the trajectory of future research on this topic?  
 
 
 # Feedback #
