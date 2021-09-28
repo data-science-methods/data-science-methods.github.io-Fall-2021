@@ -36,8 +36,26 @@ Introduction
     In addition, incorporate answers to the reflexivity questions from the labs:  what did you already know about this topic before starting to work on the project, what did you expect to find, who's impacted by this topic and how are you connected to them.  
 
 Methods
-: The methods section should focus on the data, and in particular should include a fairly detailed (~1,000-word) narrative of the journey that the data travelled to get to you.  *[more]*  
-	Beyond the methods covered in this course — which, after all, are focused much more on preparing and maintaining your data than on analysis — you're welcome to use any analytical techniques with which you're comfortable.  
+: The methods section should focus on the data, and in particular should include a fairly detailed (~1,000-word) narrative of the journey that the data travelled to get to you.  Here's the list of things we came up with during our discussion of the idea of data journeys:  
+    - making assumptions explicit
+    - accessible to many audiences
+    - acknowledging limits of sample
+    - how these limits change analysis strategy
+    - justifying choice of methods / other possible methods
+    - [authors'] qualifications
+    - resources and capabilities [and how they enabled/prevented different kinds of data and analysis]
+    - version control as lineage
+    - reflection on ethical issues
+    - research assistants — who were they and what did they do
+    - population affected by study's results
+    - researchers' social location and background
+    - clinical or policy implications but [often] no follow-through
+    - [professional status of] researchers — PI, student, postdocs, etc.
+    - what counts as "success"
+    - tensions between different notions of "success" and how [they're] managed
+    - disagreements within research team
+
+    Beyond the methods covered in this course — which, after all, are focused much more on preparing and maintaining your data than on analysis — you're welcome to use any analytical techniques with which you're comfortable.  
 
 Findings
 : As usual, your findings should be framed as phenomena (in the sense of the Brown chapter) rather than causal claims, mechanisms, or theoretical results.  
