@@ -49,7 +49,7 @@ table = overview_df %>%
     pandoc.table.return(justify = c('rllll'),
                         missing = '',
                         split.tables = Inf, 
-                        keep.line.breaks = FALSE,
+                        keep.line.breaks = TRUE,
                         style = 'grid')
 # write_lines(table, '../table.md')
 cat(table)
